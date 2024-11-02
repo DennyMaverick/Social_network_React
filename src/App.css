@@ -37,21 +37,6 @@ img {
   "n c";
 }
 
-.header {
-  display: flex;
-  grid-area: h;
-  background-color: green;
-}
-
-
-.nav {
-  grid-area: n;
-  background-color:chocolate;
-}
-
-.content {
-  grid-area: c;
-}
 
 .content__image {
   border-radius: 20px 20px 0 0;
@@ -59,6 +44,7 @@ img {
   width: 100%;
 }
 
-.background-profile__wrapper {
-  padding: 20px;
+.app-wrapper-content {
+  grid-area: c;
+  background-color: cornflowerblue;
 }

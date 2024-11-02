@@ -1,8 +1,10 @@
-import Picture from '../images/code.jpg';
+import style from './BackgroundProfile.module.css';
+
+import Picture from '../../images/code.jpg';
 
 const BackgroundProfile = () => {
   return (
-    <div className='background-profile__wrapper'>
+    <div className={style.backgroundProfile__wrapper}>
       <img className='content__image' src={Picture} />
     </div>
   );
